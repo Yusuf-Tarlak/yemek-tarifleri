@@ -1,0 +1,40 @@
+body {
+  background-color: wheat;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1, h2 {
+  color: darkred;
+}
+
+h3 {
+  color: saddlebrown;
+}
+
+a {
+  color: darkred;
+}
+
+.kucuk-resim {
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid gray;
+  padding: 6px 12px;
+}
+
+th {
+  background-color: navajowhite;
+}
+
+footer {
+  border-top: 1px solid gray;
+  margin-top: 30px;
+  font-size: 14px;
+}
