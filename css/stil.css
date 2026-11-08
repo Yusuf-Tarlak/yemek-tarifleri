@@ -16,6 +16,18 @@ a {
   color: darkred;
 }
 
+nav {
+  display: flex;
+  gap: 30px;
+  background-color: navajowhite;
+  padding: 10px;
+}
+
+.grup {
+  display: flex;
+  flex-direction: column;
+}
+
 .kucuk-resim {
   vertical-align: middle;
 }
