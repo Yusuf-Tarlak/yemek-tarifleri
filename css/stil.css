@@ -28,8 +28,25 @@ nav {
   flex-direction: column;
 }
 
-.kucuk-resim {
-  vertical-align: middle;
+.kartlar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.kart {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.kart img {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
 }
 
 table {
@@ -49,4 +66,15 @@ footer {
   border-top: 1px solid gray;
   margin-top: 30px;
   font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .kartlar {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
